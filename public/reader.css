@@ -1,0 +1,9 @@
+:root { color-scheme: light; }
+body { margin: 0; background: #e8acac; font-family: system-ui, Arial; line-height: 1.7; }
+.reader { max-width: 820px; margin: 0 auto; padding: 24px 18px 80px; }
+.topbar { position: sticky; top: 0; background: #fff; padding: 10px 18px; border-bottom: 1px solid #eee; }
+.title { font-weight: 700; }
+.content { white-space: pre-wrap; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 16px; }
+.pager { position: fixed; right: 16px; bottom: 16px; display: flex; gap: 8px; }
+button { padding: 8px 12px; border: 1px solid #ddd; background: #fff; border-radius: 10px; cursor: pointer; }
+button:active { transform: translateY(1px); }
